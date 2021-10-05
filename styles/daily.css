@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
+
+html, body{
+    background-color: #E4F1EE;
+    width: 100vw;
+    height: 100%;
+    margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.barra-nav{
+    font-family: 'Roboto';
+    background-color: #5DBAA4;
+    width: 100%;
+    height: 7.5vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 2.5px 2.5px 10px #999;
+}
+
+.barra-nav img{
+	margin-top: 1.5%;
+	width: 7.5%;
+	margin-right: 10.5%;
+	margin-left: 5%;
+	cursor: pointer;
+}
+
+.barra-nav a{
+	text-decoration: none;
+	color: #FFF;
+	font-size: smaller;
+	margin-bottom: 5%;
+}
+
+#flecha{
+	transform: rotate(180deg);
+}
+
+#bn1{
+	margin-left: 5%;
+}
+
+#bn2{
+	margin-left: 6.5%;
+}
+
+#bn3{
+	margin-left: 2.5%;
+}
+
+#bn4{
+	margin-left: 1%;
+}
+
+#logo{
+	width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 25%;
+}
+
+h1{
+	text-align: center;
+	margin: 25px;
+}
+
+.daily span{
+	text-align: left;
+	margin-left: 5%;
+}
+
+.daily input{
+	width: 65%;
+	height: 45px;
+	border-radius: 5px;
+	border: solid 1px #B9B9B9;
+	margin-left: 30%;
+	margin-top: 5px;
+}
+
+#termometro{
+	float: left;
+	width: 180px;
+	margin-right: 0px;
+	margin-top: 75px;
+}
+
+.temperaturas{
+	text-align: right;
+	margin-right: 5%;
+	margin-top: 50px;
+}
+
+p{
+	margin-bottom: 5%;
+	margin-left: 0%;
+	font-weight: bold;
+}
+
+#send{
+	background-color: #009D9D;
+	border: solid 1px #707070;
+	border-radius: 10px;
+	width: 35%;
+	height: 5%;
+	color: #FFFFFF;
+	margin-top: 15%;
+	margin-left: 32.5%;
+	margin-bottom: 10%;
+}

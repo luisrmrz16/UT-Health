@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
+
+html, body{
+    background-color: #E4F1EE;
+    width: 100vw;
+    height: 100%;
+    margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.barra-nav{
+    font-family: 'Roboto';
+    background-color: #5DBAA4;
+    width: 100%;
+    height: 7.5vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 2.5px 2.5px 10px #999;
+}
+
+.barra-nav img{
+	margin-top: 1.5%;
+	width: 7.5%;
+	margin-right: 9%;
+	margin-left: 7.5%;
+	cursor: pointer;
+}
+
+.barra-nav a{
+	text-decoration: none;
+	color: #FFF;
+	font-size: smaller;
+	margin-bottom: 5%;
+}
+
+#bn1{
+	margin-left: 5%;
+}
+
+#bn2{
+	margin-left: 6.5%;
+}
+
+#bn3{
+	margin-left: 2.5%;
+}
+
+#bn4{
+	margin-left: 1%;
+}
+
+
+#logo{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 25%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.info ul{
+    list-style-type: none;
+}
+
+.info li{
+    text-align: center;
+    background-color: #ADD5D5;
+    width: 80%;
+    margin-top: 7.5%;
+    padding: 2.5%;
+    margin-left: 7.5%;
+    color: #404040BF;
+
+}
+
+#out{
+    background-color: #44C1C1;
+    width: 45%;
+    height: 5vh;
+    border-radius: 25px;
+    text-align: center;
+    border: none;
+    color: #FFF;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+footer{
+    text-align: center;
+}
+
+#flecha{
+    transform: rotate(270deg);
+    margin-left: 5%;
+    width: 5%;
+    filter: hue-rotate(0deg) saturate(0.0%) brightness(25%);
+}
+

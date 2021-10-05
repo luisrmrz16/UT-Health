@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
+
+html, body{
+    background-color: #E4F1EE;
+    width: 100vw;
+    height: 100vh;
+}
+
+#logov1{
+    width: 25%;
+    cursor: pointer;
+    margin-top: 5%;
+}
+
+#head{
+    background: #ACBFBD;
+    height: 7.5%;
+    width: 72.5%;
+    position: absolute;
+    top: 5%;
+    right: 0;
+    border-radius: 10px 0 0 10px ;
+}
+
+#registrarse {
+    display: block;
+    border: 1px solid #00A0A0; 
+    width: 32.5% ;
+    height: 3.5vh;
+    background-color:#ACD6CE;
+    text-align: right;
+    border-radius: 5px;
+    position: absolute;
+    top: 7.5%;
+    right: 5%;
+    color: #009D9D;
+    
+
+}
+
+#entrar{
+    display: block;
+    border: 1px solid #00A0A0; 
+    width: 25% ;
+    height: 3.5vh;
+    background-color:#ACD6CE;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 7.5%;
+    right: 40%;
+    color: #009D9D;
+    
+}
+
+#user{
+    width: 20%;
+    position: absolute;
+    right: 77.5%;
+    top: 7.5%;
+}
+
+#quienes-somos{
+    background-color: #FFFFFF;
+    border: 1px solid #707070;
+    padding: 5%;
+    border-radius: 10px;
+    width: 75%;
+    margin: 0 auto;
+    shape-margin: initial;
+    
+}
+
+#quienes-somos h1{
+    color:#009D9D;
+    font-size: 150%;
+    text-align: left;
+}
+
+#quienes-somos p{
+    color: #404040;
+    text-align: right;
+    font-size: medium;
+}
+
+#line-main{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+#line-bottom{
+    padding: 0;
+    min-width: 100%;
+    height: 2px;
+    background-color: #009D9D;
+}
+
+.devs-card{
+    padding: 2.5%;
+    border-radius: 10px;
+    width: 82.5vw;
+    background-color: #ADD5D5;
+    box-shadow: inset;
+    margin: 0 auto;
+}
+
+.devs-card h1{
+    text-align: center;
+    color: #000;
+    font-size: 125%;
+}
+
+.devs-card h2{
+    font-size: medium;
+}
+
+.devs-card p, .devs-card a{
+    font-size: 75%;
+    text-align: center;
+    text-decoration: none;
+    color: #404040;
+}
+
+.devs-card ul{
+    list-style: none;
+    padding-left: 0%;
+    font-size: smaller;
+}
+
+.devs-card b{
+    color: #404040;
+}
+
+.devs-card img{
+    float: right;
+}
