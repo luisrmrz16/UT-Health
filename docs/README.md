@@ -3,7 +3,7 @@
 ## **Proyecto Integradora I - T301**
 
 ### **UNIVERSIDAD TECNOLÓGICA DE LOS VALLES CENTRALES DE OAXACA**
-![Logo UTVCO](https://i.imgur.com/aA85jNB.png?1) <img src="../images/logo-v1.png" width="175">
+![Logo UTVCO](https://i.imgur.com/aA85jNB.png?1) <img src="https://raw.githubusercontent.com/luisrmrz16/UT-Health/main/images/logo-v1.png" width="175">
 
 #### **EQUIPO 4:**
 
